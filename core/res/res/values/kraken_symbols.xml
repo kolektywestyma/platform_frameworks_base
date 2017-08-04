@@ -53,4 +53,9 @@
 
     <!-- NightLight FOD -->
    <java-symbol type="bool" name="disable_fod_night_light"/>
+
+   <!-- Any package that has one of the package names defined below will be prevented
+    from using specific sensors in order to stop battery drain -->
+   <java-symbol type="array" name="config_blockPackagesSensorDrain" />
+
 </resources>
