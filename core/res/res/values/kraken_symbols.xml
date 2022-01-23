@@ -50,4 +50,7 @@
 
     <!-- Expected value from fast charging status file -->
     <java-symbol type="string" name="config_oemFastChargerStatusValue" />
+
+    <!-- NightLight FOD -->
+   <java-symbol type="bool" name="disable_fod_night_light"/>
 </resources>
